@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The portfolio of Vrinda Gupta, a Computer Science Engineering student and web developer.">
+  <title>Vrinda Gupta | Web Developer</title>
+  <link rel="icon" href="assets/profile-placeholder.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Vrinda Gupta, home">vg<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
+        <span class="menu-toggle-label">Menu</span>
+        <span class="menu-icon" aria-hidden="true"><span></span><span></span></span>
+      </button>
+      <div class="nav-links" id="primary-menu">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark theme">
+        <span class="theme-icon" aria-hidden="true">☾</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> Computer Science Engineering student</p>
+        <h1>Hi, I’m Vrinda.<br><span class="text-accent">I build for the web.</span></h1>
+        <p class="hero-intro">I’m a student developer who enjoys turning thoughtful ideas into useful, welcoming digital experiences. I’m currently learning, building, and growing one project at a time.</p>
+        <div class="button-row">
+          <a class="button button-primary" href="projects.html">View projects <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="contact.html">Contact me</a>
+        </div>
+        <div class="hero-note"><span aria-hidden="true">✳</span> Curious by nature. Builder by choice.</div>
+      </div>
+      <div class="hero-visual">
+        <div class="portrait-frame">
+          <img src="assets/profile-placeholder.png" alt="Illustrated portrait placeholder for Vrinda Gupta">
+          <div class="portrait-caption"><span class="caption-mark" aria-hidden="true">✳</span><span>Currently creating<br><strong>things that matter.</strong></span></div>
+        </div>
+        <span class="visual-orbit orbit-one" aria-hidden="true"></span>
+        <span class="visual-orbit orbit-two" aria-hidden="true"></span>
+        <span class="visual-star" aria-hidden="true">✳</span>
+      </div>
+    </section>
+
+    <section class="skills-strip" aria-labelledby="skills-title">
+      <div class="container skills-inner">
+        <div class="skills-intro">
+          <p class="eyebrow">A few things I work with</p>
+          <h2 id="skills-title">My toolkit</h2>
+        </div>
+        <ul class="skill-list" aria-label="Skills">
+          <li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>Responsive design</li><li>Git &amp; GitHub</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="home-about container section-space">
+      <div class="section-heading">
+        <p class="eyebrow">A little about me</p>
+        <h2>Good design makes<br>the web feel more human.</h2>
+      </div>
+      <div class="home-about-copy">
+        <p>I’m interested in the sweet spot between clean design and practical code. I like breaking a challenge into small steps, learning as I go, and making sure the final experience works for everyone.</p>
+        <a class="text-link" href="about.html">More about me <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand footer-brand" href="index.html">vg<span>.</span></a>
+      <p>Designed and built with care by Vrinda Gupta.</p>
+      <a class="footer-top" href="#main">Back to top ↑</a>
+      <p class="footer-copy">© <span data-year>2026</span> Vrinda Gupta</p>
+    </div>
+  </footer>
+</body>
+</html>
